@@ -1,0 +1,27 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Φορμα</title>
+  </head>
+
+  <body>
+    <h1>Επιλογη:</h1>
+
+<form  action="/sendData" method="GET">
+
+<label for="slPayment">Τροπος Χρεωσης:</label>
+<select id="slPayment" name="payment">
+  <option value="visa" selected>VISA</option>
+  <option value="cash" selected>Μετρητα</option>
+  <option value="credit" selected>Πιστωση</option>
+</select>
+<br>
+
+<input type="submit" value="Αποστολη">
+<input type="reset"  value="Καθαρισμος">
+
+</form>
+
+  </body>
+
+</html>

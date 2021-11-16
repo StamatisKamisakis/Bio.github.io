@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Φορμα</title>
+  </head>
+
+  <body>
+    <h1>Αποστολη Δεδομενων</h1>
+
+<form  action="/sendData" method="get">
+  <label for="txtName">Ονοματεπωνυμο:</label>
+<input type="text" id="txtName" name="name"  minilength="3" maxlength="30">
+<br>
+(*)
+<label for="txtEmail">Email:</label>
+<input type="text" id="txtEmail" name="email"  maxlength="30"><br>
+(*)
+
+<label for="txtTel">Τηλεφωνο:</label>
+<input type="tel" id="txtTel" name="phone">
+
+<br>
+(*)Τα πεδια ειναι υποχρεωτικά <br>
+
+<input type="submit" value="Αποστολη">
+<input type="reset"  value="Καθαρισμος">
+
+</form>
+
+  </body>
+
+</html>

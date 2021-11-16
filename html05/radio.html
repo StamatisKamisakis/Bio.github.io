@@ -1,0 +1,37 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Φορμα</title>
+  </head>
+
+  <body>
+    <h1>Επιλογη:</h1>
+
+<form  action="/sendData" method="GET">
+  Επιλέξτε δώρο:
+  <br>
+<input type="radio" id="rdKoutali" name="gift"  value="koutali" checked>
+<label for="rdKoutali">Γλυκο Κουταλιου</label>
+<br>
+<input type="radio" id="rdMIilfeulle" name="gift"  value="milfeulle">
+<label for="rdMIilfeulle">Μιλφειγ</label>
+<br>
+Τροπος Χρεωσης:
+<br>
+<input type="radio" id="rdVISA" name="payment" value="visa">
+<label for="rdVISA">VISA</label>
+<br>
+<input type="radio" id="rdCash" name="payment" value="cash">
+<label for="rdCash">Μετρητα</label>
+<br>
+<input type="radio" id="rdPist" name="payment" value="credit">
+<label for="rdPist">Πιστωση</label>
+<br>
+<input type="submit" value="Αποστολη">
+<input type="reset"  value="Καθαρισμος">
+
+</form>
+
+  </body>
+
+</html>

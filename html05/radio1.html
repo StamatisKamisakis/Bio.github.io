@@ -1,0 +1,41 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Φορμα</title>
+  </head>
+
+  <body>
+    <h1>Προορισμος Διακοπων:</h1>
+
+<form  action="/sendData" method="GET">
+
+<label for="slDest" name="destination" multiple size="4">Προορισμος Διακοπων:</label>
+<select id="slDest" name="destination" multiple size="4">
+  <optgroup label="Europe">
+ <option value="Spain" selected>Spain</option>
+  <option value="Italy">Italy</option>
+  <option value="Greece">Greece</option>
+  <option value="Norway">Norway</option>
+  <option value="Ireland">Ireland</option>
+  <option value="UK">UK</option>
+   </optgroup>
+   <optgroup label="Asia">
+  <option value="Japan" selected>Japan</option>
+   <option value="China">China</option>
+   <option value="Taiwan">Taiwan</option>
+   <option value="Thailand">Thailand</option>
+   <option value="India">India</option>
+   <option value="UAE">UAE</option>
+    </optgroup>
+
+    </select>
+  <br>
+
+<input type="submit" value="Αποστολη">
+<input type="reset"  value="Καθαρισμος">
+
+</form>
+
+  </body>
+
+</html>
